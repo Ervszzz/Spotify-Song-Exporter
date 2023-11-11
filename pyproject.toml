@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ervszz-spotify"
+version = "0.1.0"
+description = ""
+authors = ["ErvsJosh <Ervin@kodexa.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+spotipy = "^2.23.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
